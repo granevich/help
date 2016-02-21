@@ -1,0 +1,6 @@
+//git log:
+git log --pretty=format:"%h - %an, %ar : %s"
+//git commit editor
+git config --global core.editor "'C:\\Program Files (x86)\\Notepad++\\notepad++.exe' -multiInst -notabbr -nosession -noPlugin""
+//git merge tool KDIFF3
+git config --global mergetool.kdiff3.cmd '"C:\\Program Files\\KDiff3\\kdiff3" $BASE $LOCAL $REMOTE -o $MERGED'
